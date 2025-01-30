@@ -43,7 +43,7 @@ This section should list any major frameworks/libraries used to bootstrap your p
 
 * Swift 3
 * POD
-* Alamofoire
+* Alamofire
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 

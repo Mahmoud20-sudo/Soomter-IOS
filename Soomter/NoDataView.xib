@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="12118" systemVersion="16A323" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12086"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="SST-Arabic-Light.ttf">
+            <string>SSTArabic-Light</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="npj-v1-yhn" customClass="NoDataView" customModule="Soomter" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+            <subviews>
+                <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Comp-Profile-UnactiveProds-Icon" translatesAutoresizingMaskIntoConstraints="NO" id="NUy-aL-ELY">
+                    <rect key="frame" x="67" y="30" width="240" height="143"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="143" id="43L-8c-yD4"/>
+                        <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="143" id="ogi-n7-t1v"/>
+                    </constraints>
+                </imageView>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="لا يوجد منتجات حالياً" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6gV-ED-8fp">
+                    <rect key="frame" x="112" y="198" width="150" height="25"/>
+                    <constraints>
+                        <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="150" id="QXS-BK-2xT"/>
+                        <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="25" id="Uub-hy-2Ip"/>
+                        <constraint firstAttribute="width" constant="150" id="Vah-o9-Rcq"/>
+                        <constraint firstAttribute="height" constant="25" id="waa-Pj-I3j"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" name="SSTArabic-Light" family="SST Arabic" pointSize="16"/>
+                    <color key="textColor" red="0.25490196079999999" green="0.25098039220000001" blue="0.25882352939999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="لم تقم المنشأة بإضافة أي من منتجاتها الى الاّن" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="XR2-XJ-0TJ">
+                    <rect key="frame" x="10" y="233" width="355" height="21"/>
+                    <constraints>
+                        <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="21" id="drJ-L6-GMP"/>
+                        <constraint firstAttribute="height" constant="21" id="xuR-lD-Zpx"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" name="SSTArabic-Light" family="SST Arabic" pointSize="13"/>
+                    <color key="textColor" red="0.57647058819999997" green="0.57647058819999997" blue="0.57647058819999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="ربما تقوم هذه المنشأة بإضافة منتجاتها قريبا" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="vdG-cc-dMF">
+                    <rect key="frame" x="10" y="259" width="355" height="21"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="21" id="PyN-O2-SbO"/>
+                        <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="21" id="j4H-Ha-acq"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" name="SSTArabic-Light" family="SST Arabic" pointSize="13"/>
+                    <color key="textColor" red="0.57647058819999997" green="0.57647058819999997" blue="0.57647058819999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstItem="XR2-XJ-0TJ" firstAttribute="top" secondItem="6gV-ED-8fp" secondAttribute="bottom" constant="10" id="Bdt-Ry-12P"/>
+                <constraint firstAttribute="trailing" secondItem="NUy-aL-ELY" secondAttribute="trailing" constant="68" id="GzT-zp-UJh"/>
+                <constraint firstItem="vdG-cc-dMF" firstAttribute="top" secondItem="XR2-XJ-0TJ" secondAttribute="bottom" constant="5" id="JkK-NK-Y1D"/>
+                <constraint firstItem="XR2-XJ-0TJ" firstAttribute="leading" secondItem="npj-v1-yhn" secondAttribute="leading" constant="10" id="LfQ-MB-KvK"/>
+                <constraint firstItem="NUy-aL-ELY" firstAttribute="top" secondItem="npj-v1-yhn" secondAttribute="top" constant="30" id="Mf1-YE-Nzd"/>
+                <constraint firstItem="vdG-cc-dMF" firstAttribute="top" secondItem="XR2-XJ-0TJ" secondAttribute="bottom" constant="5" id="PAZ-5S-YFi"/>
+                <constraint firstItem="NUy-aL-ELY" firstAttribute="leading" secondItem="npj-v1-yhn" secondAttribute="leading" constant="67" id="aIo-TL-IMb"/>
+                <constraint firstAttribute="trailing" secondItem="XR2-XJ-0TJ" secondAttribute="trailing" constant="10" id="aYq-lV-wqc"/>
+                <constraint firstItem="vdG-cc-dMF" firstAttribute="leading" secondItem="npj-v1-yhn" secondAttribute="leading" constant="10" id="axv-SX-lxx"/>
+                <constraint firstItem="6gV-ED-8fp" firstAttribute="top" secondItem="NUy-aL-ELY" secondAttribute="bottom" constant="25" id="cGK-hO-muG"/>
+                <constraint firstItem="6gV-ED-8fp" firstAttribute="top" secondItem="NUy-aL-ELY" secondAttribute="bottom" constant="25" id="lze-DH-B9N"/>
+                <constraint firstItem="XR2-XJ-0TJ" firstAttribute="top" secondItem="6gV-ED-8fp" secondAttribute="bottom" constant="10" id="nZC-1y-bJs"/>
+                <constraint firstAttribute="trailing" secondItem="vdG-cc-dMF" secondAttribute="trailing" constant="10" id="ndk-k2-a4a"/>
+                <constraint firstItem="6gV-ED-8fp" firstAttribute="centerX" secondItem="npj-v1-yhn" secondAttribute="centerX" id="seh-mw-ZgF"/>
+            </constraints>
+            <connections>
+                <outlet property="desc1_lbl" destination="XR2-XJ-0TJ" id="Cqe-gp-hhF"/>
+                <outlet property="desc2_lbl" destination="vdG-cc-dMF" id="22B-je-ShR"/>
+                <outlet property="imge" destination="NUy-aL-ELY" id="ANz-6y-UHo"/>
+                <outlet property="title_lbl" destination="6gV-ED-8fp" id="wxa-gu-Ovx"/>
+            </connections>
+        </view>
+    </objects>
+    <resources>
+        <image name="Comp-Profile-UnactiveProds-Icon" width="57" height="57"/>
+    </resources>
+</document>

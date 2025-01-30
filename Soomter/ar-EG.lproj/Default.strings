@@ -1,0 +1,103 @@
+/* 
+  Default.strings
+  Soomter
+
+  Created by Mahmoud on 8/27/18.
+  Copyright © 2018 Mahmoud. All rights reserved.
+*/
+"home-menu" = "الصفحة الرئيسية";
+"special-ads" = "إعلانات مميزة";
+"photo-ads" = "إعلانات صور";
+"video-ads" = "إعلانات فيديو";
+"text-ads" = "إعلانات نصية";
+
+"the-special-ads" = "إعلانات المميزة";
+
+"category" = "التصنيف";
+"soon" = "يحدث مستقبلا";
+"done" = "انتهى الحدث";
+"nw" = "يجدث الاّن";
+
+
+"from" = "من";
+"to" = "إلى";
+
+"r.s" = "ريال";
+"discount" = "خصم";
+
+"free_shipp" = "الشحن مجاني";
+
+
+"no_link" = "لا يوجد معلومات";
+"most_wanted" = "الأكثر مشاهدة";
+
+
+"address" = "االعنوان";
+"unified-num" = "الرقم الموحد";
+"mob" = "جوال";
+"phone" = "هاتف";
+"fax" = "فاكس";
+"mailbox" = "ص ب";
+"website" = "الموقع الإلكتروني";
+"email" = "البريد الإلكتروني";
+
+"log" = "السجل التجاري";
+"ins_catg" = "تصنيف المنشأة";
+"ins_activity" = "نشاط المنشأة";
+"main_branch" = "المقر الرئيسي";
+"branches_num" = "عدد فروع المنشأة";
+"worktime" = "أوقات العمل";
+
+
+"home" = "الرئيسية";
+"serch" = "بحث";
+"prods" = "المنتجات";
+"myaccount" = "حسابي";
+"notifs" = "التنبيهات";
+
+
+"all_ads" = "جميع الإعلانات";
+"txt_ads" = "إعلان نصي";
+"vizeo_ads" = "إعلان فيديو";
+"imgs_ads" = "إعلان مصور";
+
+
+"need_login" = "يجب ان تسجل دخولك اولاّ";
+"serch_result" = "نتائج البحث";
+
+"no_result" = "لا يوجد نتائج";
+"added_success" = "تم إضافة المنتج بنجاح";
+
+"delete_success" = "تم إزالة المنتج بنجاح";
+"shipped-to" = "تشحن إلى";
+"deliver-on" = "أحصل عليها يوم";
+
+"process-sucess" = "تم تأكيد الطلب بنجاح";
+"fav-sucess" = "نجحت العملية";
+
+"not-added" = "لم بتم إضافة هذه الخاصية حتى الاّن";
+"need-restart" = "يجب إعادة تشغيل التطبيق لإنهاء إعداد اللغة";
+
+"email_method" = "عن طريق البريد الإلكتروني";
+"mobile_method" = "إرسال رسالة عبر الجوال";
+
+
+"forgot_username" = "نسيت كلمة المرور";
+"forgot_pass" = "نسيت اسم المستخدم";
+
+"fill-rq-field" = "املأ الحقول المطلوبة اولاً";
+"invalid-mail" = "ألبريد الإلكتروني غير صحيح";
+
+"choose-type" = "اختر النوع اولا";
+"choose-method" = "اختر الطريقة اولا";
+
+"folow" = "متابعة";
+"unfolow" = "إلغاء";
+
+"folow-sucess" = "تم المتابعة بنجاح";
+"unfolow-sucess" = "تم إلغاء المتابعة بنجاح";
+
+"warning-title" = "تحذير";
+"warning-msg"  = "سيتم حذف كل التنبيهات!";
+"ok" = "موافق";
+"cancel" = "إلغاء";

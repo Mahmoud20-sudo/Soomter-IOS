@@ -1,0 +1,104 @@
+/* 
+  Default.strings
+  Soomter
+
+  Created by Mahmoud on 8/27/18.
+  Copyright © 2018 Mahmoud. All rights reserved.
+*/
+"home-menu" = "Home";
+"special-ads" = "Special ads";
+"photo-ads" = "Photo ads";
+"video-ads" = "Video ads";
+"text-ads" = "Text ads";
+
+"the-special-ads" = "Special ads";
+
+"category" = "Category";
+
+
+"soon" = "Soonا";
+"done" = "اFinished";
+"nw" = "Happening now";
+
+
+"from" = "From";
+"to" = "To";
+
+"free_shipp" = "Free shipping";
+"discount" = "Discount";
+"r.s" = "R.S";
+
+"no_link" = "No information";
+"most_wanted" = "Most watched";
+
+
+"address" = "Address";
+"unified-num" = "Unified number";
+"mob" = "Mobile";
+"phone" = "Phone";
+"fax" = "Fax";
+"mailbox" = "Mailbox";
+"website" = "Website";
+"email" = "Email";
+
+"log" = "Commercial Log";
+"ins_catg" = "Classification";
+"ins_activity" = "Facility's activity";
+"main_branch" = "Headquarters";
+"branches_num" = "Branches number";
+"worktime" = "Work hours";
+
+"home" = "Home";
+"serch" = "Search";
+"prods" = "Products";
+"myaccount" = "Account";
+"notifs" = "Notifications";
+
+
+"all_ads" = "All ads";
+"txt_ads" = "Text ad";
+"vizeo_ads" = "Video ad";
+"imgs_ads" = "Image ad";
+
+
+"serch_result" = "Search result";
+"need_login" = "You need to login first!";
+
+"no_result" = "No result found";
+
+"added_success" = "Successfully added";
+"delete_success" = "Successfully deleted";
+
+"shipped-to" = "Shipped to";
+"deliver-on" = "Deliver on";
+
+"process-sucess" = "Successfully Processed";
+"fav-sucess" = "Done";
+"not-added" = "This feature not added yet";
+"need-restart" = "You must restart the app in order to finish setting up language";
+
+"email_method" = "Via email";
+"mobile_method" = "Via mobile number";
+
+
+"forgot_username" = "Forgot password";
+"forgot_pass" = "Forgot username";
+
+"fill-rq-field" = "Fill required field!";
+"invalid-mail" = "Invalid email address!";
+
+"choose-type" = "Choose type first!";
+"choose-method" = "Choose method first!";
+
+"folow" = "follow";
+"unfolow" = "unfollow";
+
+
+"folow-sucess" = "Successfully followed";
+"unfolow-sucess" = "Successfully unfollowed";
+
+
+"warning-title" = "Warning";
+"warning-msg"  = "All notifications will be deleted!";
+"ok" = "Ok";
+"cancel" = "Cancel";

@@ -1,0 +1,76 @@
+PODS:
+  - Alamofire (4.7.3)
+  - BEMCheckBox (1.4.1)
+  - Cosmos (16.0.0)
+  - DatePickerDialog (2.0)
+  - ESTabBarController-swift (2.6.3)
+  - iOSDropDown (0.2.6)
+  - IQKeyboardManagerSwift (6.2.0)
+  - JGProgressHUD (2.0.3)
+  - Kingfisher (4.10.0)
+  - L10n-swift (5.4.1):
+    - L10n-swift/Core (= 5.4.1)
+    - L10n-swift/Extension (= 5.4.1)
+    - L10n-swift/IBInspectable (= 5.4.1)
+  - L10n-swift/Core (5.4.1)
+  - L10n-swift/Extension (5.4.1):
+    - L10n-swift/Core
+  - L10n-swift/IBInspectable (5.4.1):
+    - L10n-swift/Core
+  - ObjectMapper (3.3.0)
+  - PagingTableView (0.1.0)
+  - SideMenu (5.0.2)
+  - XLPagerTabStrip (8.1.0)
+
+DEPENDENCIES:
+  - Alamofire (~> 4.7)
+  - BEMCheckBox
+  - Cosmos (~> 16.0)
+  - DatePickerDialog
+  - ESTabBarController-swift
+  - iOSDropDown
+  - IQKeyboardManagerSwift
+  - JGProgressHUD
+  - Kingfisher (~> 4.0)
+  - L10n-swift (~> 5.4)
+  - ObjectMapper (~> 3.3)
+  - PagingTableView
+  - SideMenu
+  - XLPagerTabStrip (~> 8.0)
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - Alamofire
+    - BEMCheckBox
+    - Cosmos
+    - DatePickerDialog
+    - ESTabBarController-swift
+    - iOSDropDown
+    - IQKeyboardManagerSwift
+    - JGProgressHUD
+    - Kingfisher
+    - L10n-swift
+    - ObjectMapper
+    - PagingTableView
+    - SideMenu
+    - XLPagerTabStrip
+
+SPEC CHECKSUMS:
+  Alamofire: c7287b6e5d7da964a70935e5db17046b7fde6568
+  BEMCheckBox: 5ba6e37ade3d3657b36caecc35c8b75c6c2b1a4e
+  Cosmos: 7bcee0fa858a9355a214f2a181be5dffcee42c81
+  DatePickerDialog: 5e1c24d9fe6506cd45dbc573eed7b0a251b1c09d
+  ESTabBarController-swift: edb8d8bc2cd043a8ddb43ab501fefdf9865ac519
+  iOSDropDown: 90608a7270234c503260ef13314907b6703b39aa
+  IQKeyboardManagerSwift: b07ccf9d8cafe993dcd6cb794eb4ba34611a0c4e
+  JGProgressHUD: 12b20a8f4ffe05258f8635c1ab92816e451f904d
+  Kingfisher: 43c4b802d8b5256cf1f4379e9cd10b329be6d3e2
+  L10n-swift: 8d7edb9c113ac4859a27d6417b47a6bc6cdebf7c
+  ObjectMapper: b612bf8c8e99c4dc0bb6013a51f7c27966ed5da9
+  PagingTableView: ba7869ff22f7cf3f8b2190b0314688d2cb0e46c4
+  SideMenu: e5094f0b2e7d9609e100a90ae69025abd994f882
+  XLPagerTabStrip: 22d4c58200d7c105e0e407ab6bfd01a5d85014be
+
+PODFILE CHECKSUM: f8a08e83d8d532b3928bedf62cf572f350bc3277
+
+COCOAPODS: 1.5.3
